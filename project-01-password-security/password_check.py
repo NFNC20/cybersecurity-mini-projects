@@ -14,3 +14,4 @@ for pwd in passwords:
     else:
         strength = "Strong"
     print(f"Password: {pwd} | Length: {length} | Estimated Strength: {strength}")
+#Test
