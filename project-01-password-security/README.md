@@ -42,3 +42,9 @@ This allows us to see how shorter passwords are weaker than longer, more complex
 - Explore password hashing algorithms
 - Learn about two-factor authentication
 - Investigate password managers
+
+### Sample Output
+
+Password: 12345 | Length: 5 | Estimated Strength: Very Weak
+Password: Pa55word | Length: 8 | Estimated Strength: Medium
+Password: My$ecur3P@ss2025! | Length: 17 | Estimated Strength: Strong
