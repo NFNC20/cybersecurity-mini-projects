@@ -36,6 +36,11 @@ The script iterates over a list of example passwords, calculates their length, a
 
 This allows us to see how shorter passwords are weaker than longer, more complex ones.
 
+### Sample Output
+
+Password: 12345 | Length: 5 | Estimated Strength: Very Weak
+Password: Pa55word | Length: 8 | Estimated Strength: Medium
+Password: My$ecur3P@ss2025! | Length: 17 | Estimated Strength: Strong
 
 ## Next Steps
 
