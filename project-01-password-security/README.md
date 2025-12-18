@@ -15,3 +15,15 @@ Passwords are still one of the most common authentication methods. Weak or reuse
 - Short passwords are highly vulnerable
 - Length is often more important than complexity
 - Reusing passwords increases overall risk
+
+## Password Comparison
+| Password Example | Length | Complexity | Estimated Strength |
+|------------------|--------|------------|--------------------|
+| 12345            | 5      | Low        | Very Weak          |
+| Pa55word         | 8      | Medium     | Medium             |
+| My$ecur3P@ss2025!| 17     | High       | Strong             |
+
+### Observation
+Short passwords like '12345' are extremely weak and vulnerable to brute-force attacks.
+Longer, complex passwords are much stronger and harder to guess.
+This exercise highlights the importance of password length and complexity.
