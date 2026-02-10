@@ -15,9 +15,11 @@ Hashing ist eine Einwegfunktion, die beliebige Eingaben in einen festen Zeichens
 
 ### Beispielausgabe
 Gib ein Passwort ein, das gehasht werden soll: mypassword123
+
 Gehashtes Passwort: 6e659deaa85842cdabb5c6305fcc40033ba43772ec00d45c2a3c921741a5e377
 
 ### Wichtige Erkenntnisse
 - Hashing ist eine Einwegfunktion
 - SHA-256 liefert für Passwörter einen sicheren Hash
 - Passwörter sollen nie direkt gespeichert werden, sondern nur als Hash.
+
