@@ -1,14 +1,14 @@
-# Cybersecurity Mini Projects
+# Cybersecurity Mini Projekte
 
-This repository contains small, beginner-friendly projects created during my studies in Cyber Security.
+Dieses Repository enthält kleine, leicht verständliche Projekte, die im Rahmen meines Studiums im Bereich Cyber Security entstanden sind.
 
-## Purpose
-The goal of this repository is to build foundational cybersecurity knowledge through simple, practical exercises and clear documentation.
+## Ziel
+Dieses Repository dient dazu, grundlegende Kenntnisse in der Cybersicherheit durch einfache, praxisorientierte Übungen und eine klar strukturierte Dokumentation aufzubauen.
 
-## Project Structure
-Each project focuses on a specific cybersecurity topic and includes a short explanation of the approach and key learnings.
+## Aufbau der Projekte
+Jedes Projekt behandelt ein konkretes Thema aus der Cybersicherheit. Zusätzlich gibt es jeweils eine kurze Erklärung zum Vorgehen sowie zu den wichtigsten Lernerfahrungen.
 
-## Topics
-- Password security basics
-- Network fundamentals
-- Web security basics
+## Behandelte Themen
+- Grundlagen der Passwortsicherheit
+- Basiswissen zu Netzwerken
+- Grundlagen der Websicherheit
