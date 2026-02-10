@@ -39,5 +39,7 @@ So wird deutlich, dass kurze Passwörter schwächer sind als längere und komple
 ### Beispielausgabe
 
 Password: 12345 | Länge: 5 | Geschätzte Stärke: Sehr schwach
+
 Password: Pa55word | Länge: 8 | Geschätzte Stärke: Mittel
+
 Password: My$ecur3P@ss2025! | Länge: 17 | Geschätzte Stärke: Stark
