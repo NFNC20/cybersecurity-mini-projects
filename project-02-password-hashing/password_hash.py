@@ -3,9 +3,9 @@ import hashlib
 
 print("Password Hashing Demo\n")
 
-password = input("Enter a password to hash: ")
+password = input("Gib ein Passwort ein, das gehasht werden soll: ")
 
 # SHA-256 Hash erzeugen
 hashed = hashlib.sha256(password.encode()).hexdigest()
 
-print(f"Hashed password: {hashed}")
+print(f"Gehashtes Passwort: {hashed}")
