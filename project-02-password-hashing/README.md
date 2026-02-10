@@ -1,23 +1,23 @@
-# Project 02 - Password Hashing Demo
+# Projekt 02 - Passwort-Hashing-Demo
 
-## Goal
-Demonstrate hashing of passwords to avoid storing them in plain text. 
-This helps improve security and protect user data
+## Ziel
+Veranschaulichen, wie Passwörter gehasht werden, um sie nicht im Klartext zu speichern.
+Dies verbessert die Sicherheit und schützt die Benutzerdaten.
 
-## Background
-Storing passwords as hashes ensures that even if a database is compromised, the actual passwords are not exposed. 
-Hashing is a one-way function that converts any input into a fixed-length string.
+## Hintergrund
+Wenn Passwörter als Hashes gespeichert werden, sind sie selbst im Falle einer Kompromittierung der Datenbank nicht direkt einsehbar.
+Hashing ist eine Einwegfunktion, die beliebige Eingaben in einen festen Zeichenstring umwandelt.
 
-## Approach 
-- User inouts a password
-- SHA-256 hash is generated using Python's 'hashlib' module
-- The hashed password is displayed
+## Vorgehensweise 
+- Der Benutzer gibt ein Passwort ein
+- Mit dem Python-Modul 'hashlib' wird ein SHA-256-Hash erzeugt
+- Das gehashte Passwort wird angezeigt
 
-### Sample Output 
-Enter a password to hash: mypassword123
-Hashed password: 6e659deaa85842cdabb5c6305fcc40033ba43772ec00d45c2a3c921741a5e377
+### Beispielausgabe
+Gib ein Passwort ein, das gehasht werden soll: mypassword123
+Gehashtes Passwort: 6e659deaa85842cdabb5c6305fcc40033ba43772ec00d45c2a3c921741a5e377
 
-### Key Learnings
-- Hashing is a one-way function
-- SHA-256 provides a consistent, secure hash for passwords
-- Never store passwords in plain text
+### Wichtige Erkenntnisse
+- Hashing ist eine Einwegfunktion
+- SHA-256 liefert für Passwörter einen sicheren Hash
+- Passwörter sollen nie direkt gespeichert werden, sondern nur als Hash.
