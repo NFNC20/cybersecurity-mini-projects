@@ -1,49 +1,43 @@
-# Project 01 – Password Security Basics
+# Projekt 01 – Grundlagen der Passwortsicherheit
 
-## Goal
-Understand basic principles of password security and common weaknesses.
+## Ziel
+Die grundlegenden Prinzipien der Passwortsicherheit verstehen und häufige Schwachstellen kennenlernen.
 
-## Background
-Passwords are still one of the most common authentication methods. Weak or reused passwords are a major security risk.
+## Hintergrund
+Passwörter sind nach wie vor eine der gängigsten Methoden zur Authentifizierung. Schwache oder mehrfach verwendete Passwörter stellen ein großes Sicherheitsrisiko dar.
 
-## Approach
-- Compare weak and strong password characteristics
-- Analyze why password length matters
-- Understand common attack methods (e.g. brute force) on a conceptual level
+## Vorgehensweise
+- Schwache und starke Passwörter vergleichen
+- Analysieren, warum die Länge eines Passworts wichtig ist
+- Grundlegende Angriffsarten (z. B. Brute-Force) auf konzeptioneller Ebene verstehen
 
-## Key Learnings
-- Short passwords are highly vulnerable
-- Length is often more important than complexity
-- Reusing passwords increases overall risk
+## Wichtige Erkenntnisse
+- Kurze Passwörter sind besonders anfällig
+- Die Länge ist oft wichtiger als die Komplexität
+- Mehrfach verwendete Passwörter erhöhen das Gesamtrisik0
 
 ## Password Comparison
-| Password Example | Length | Complexity | Estimated Strength |
-|------------------|--------|------------|--------------------|
-| 12345            | 5      | Low        | Very Weak          |
-| Pa55word         | 8      | Medium     | Medium             |
-| My$ecur3P@ss2025!| 17     | High       | Strong             |
+| Passwortbeispiel | Länge  | Komplextität | Geschätzte Stärke  |
+|------------------|--------|--------------|--------------------|
+| 12345            | 5      | Niedrig      | Sehr schwach       |
+| Pa55word         | 8      | Mittel       | Mittel             |
+| My$ecur3P@ss2025!| 17     | Hoch         | Stark              |
 
-### Observation
-Short passwords like '12345' are extremely weak and vulnerable to brute-force attacks.
-Longer, complex passwords are much stronger and harder to guess.
-This exercise highlights the importance of password length and complexity.
+### Beobachtung
+Kurze Passwörter wie „12345“ sind extrem schwach und leicht durch Brute-Force-Angriffe zu knacken.
+Längere, komplexe Passwörter sind deutlich sicherer und schwerer zu erraten.
+Diese Übung verdeutlicht die Bedeutung von Passwortlänge und -komplexität.
 
 ## Python Exercise
 
-A simple Python script `password_check.py` demonstrates password strength based on password length.
+Ein einfaches Python-Skript `password_check.py` demonstriert die Stärke von Passwörtern anhand ihrer Länge.
 
-The script iterates over a list of example passwords, calculates their length, and classifies their strength as Very Weak, Medium, or Strong.
+Das Skript geht eine Liste von Beispiel-Passwörtern durch, berechnet deren Länge und bewertet die Stärke als „Sehr schwach“, „Mittel“ oder „Stark“.
 
-This allows us to see how shorter passwords are weaker than longer, more complex ones.
+So wird deutlich, dass kurze Passwörter schwächer sind als längere und komplexere.
 
-### Sample Output
+### Beispielausgabe
 
-Password: 12345 | Length: 5 | Estimated Strength: Very Weak
-Password: Pa55word | Length: 8 | Estimated Strength: Medium
-Password: My$ecur3P@ss2025! | Length: 17 | Estimated Strength: Strong
-
-## Next Steps
-
-- Explore password hashing algorithms
-- Learn about two-factor authentication
-- Investigate password managers
+Password: 12345 | Länge: 5 | Geschätzte Stärke: Sehr schwach
+Password: Pa55word | Länge: 8 | Geschätzte Stärke: Mittel
+Password: My$ecur3P@ss2025! | Länge: 17 | Geschätzte Stärke: Stark
