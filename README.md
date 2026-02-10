@@ -10,5 +10,3 @@ Jedes Projekt behandelt ein konkretes Thema aus der Cybersicherheit. Zusätzlich
 
 ## Behandelte Themen
 - Grundlagen der Passwortsicherheit
-- Basiswissen zu Netzwerken
-- Grundlagen der Websicherheit
